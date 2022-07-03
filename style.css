@@ -1,0 +1,94 @@
+html {
+
+	background-color: rgb(39, 34, 34);
+	font-family: 'Play', sans-serif;
+	color: rgb(170, 100, 64);
+}
+
+input {
+	border:  none;
+	background-color: rgb(63, 44, 35);
+	color: rgb(205, 197, 156);
+}
+.compname {
+	border: 2px solid rgb(73, 53, 44);
+	border-radius: 5px;
+}
+.comptotal {
+	background-color: #DDE191;
+	color: #000000;
+}
+
+.persinfo {
+	border: 2px solid rgb(73, 53, 44);
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+.compet {
+	border: 2px solid rgb(73, 53, 44);
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.pvbox {
+	border: 2px solid rgb(73, 53, 44);
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.equip {
+	border: 2px solid rgb(73, 53, 44);
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.lineName {
+	color: rgb(39, 34, 34);
+	font-weight: bold;
+}
+
+.compbase, .compbonus, .comptotal {
+	width: 2ch;
+}
+
+.compBase, .compBonus {
+	background-color: rgb(134, 164, 76);
+}
+
+.compTotal {
+	background-color: rgb(125, 59, 53);
+	font-weight: bold;
+}
+
+.pvinput {
+	width: 2ch;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+button {
+	background-color: transparent;
+	border: 2px solid rgb(134, 164, 76);
+	border-radius: 10px;
+	color: rgb(134, 164, 76);
+}
+
+table {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+td {
+	width: 30px;
+	margin: 10px;
+	padding: 3px;
+}

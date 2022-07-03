@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+
+	<title>Fiche joueur</title>
+</head>
+	<body>
+		<div class="persinfo">
+			<div>				
+				<label for="name">Nom :</label>
+				<input type="text" id="name" name="name" required minlength="1" maxlength="8" size="10">
+			</div>
+			<div>	
+				<label for="name">Prénom :</label>
+				<input type="text" id="surname" name="surname" required minlength="1" maxlength="8" size="10">
+			</div>
+		</div>
+
+		<div class="compet">
+			<table>
+				<tr class="compName">
+					<td></td>
+					<td class="compname">For</td>
+					<td class="compname">Int</td>
+					<td class="compname">Agi</td>
+					<td class="compname">Soc</td>
+					<td class="compname">End</td>
+				</tr>
+				<tr class="compBase">
+					<td class="lineName">Base</td>
+					<td><input id="forbase" class="compbase" type="number" name="forbase" minlength="1" maxlength="2" size="2"></td>
+					<td><input id="intbase" class="compbase" type="number" name="intbase" minlength="1" maxlength="2" size="2"></td>
+					<td><input id="agibase" class="compbase" type="number" name="agibase" minlength="1" maxlength="2" size="2"></td>
+					<td><input id="socbase" class="compbase" type="number" name="socbase" minlength="1" maxlength="2" size="2"></td>
+					<td><input id="endbase" class="compbase" type="number" name="endbase" minlength="1" maxlength="2" size="2"></td>
+				</tr>
+				<tr class="compBonus">
+					<td class="lineName">Bonus</td>
+					<td><input id="forbonus" class="compbonus" type="number" name="forbonus" minlength="1" maxlength="2" size="2"></td>
+					<td><input id="intbonus" class="compbonus" type="number" name="intbonus" minlength="1" maxlength="2" size="2"></td>
+					<td><input id="agibonus" class="compbonus" type="number" name="agibonus" minlength="1" maxlength="2" size="2"></td>
+					<td><input id="socbonus" class="compbonus" type="number" name="socbonus" minlength="1" maxlength="2" size="2"></td>
+					<td><input id="endbonus" class="compbonus" type="number" name="endbonus" minlength="1" maxlength="2" size="2"></td>
+				</tr>
+				<tr class="compTotal">
+					<td class="lineName">Total</td>
+					<td><input id="fortotal" class="comptotal" type="number" name="fortotal" minlength="1" maxlength="2" size="2" disabled></td>
+					<td><input id="inttotal" class="comptotal" type="number" name="inttotal" minlength="1" maxlength="2" size="2"></td>
+					<td><input id="agitotal" class="comptotal" type="number" name="agitotal" minlength="1" maxlength="2" size="2"></td>
+					<td><input id="soctotal" class="comptotal" type="number" name="soctotal" minlength="1" maxlength="2" size="2"></td>
+					<td><input id="endtotal" class="comptotal" type="number" name="endtotal" minlength="1" maxlength="2" size="2"></td>
+				</tr>
+			</table>
+		</div>
+		<div class="pvbox">
+			<div>				
+				<label for="name">PV :</label>
+				<input class="pvinput" type="number" id="pv" name="pv" required minlength="1" maxlength="2" size="2">
+			</div>
+		</div>
+		<div class="equip">
+			<div id="eqHead" class="eqHead">Equipement <button onclick="addEquip()" class="addEquip" type="button">+</button>
+				<div class="eq1">
+					<input type="text" id="eq1_type" name="eq1_type" size="30">
+				</div>
+					
+			</div>
+
+		</div>
+		<script src="script.js" ></script>
+	</body>
+</html>
